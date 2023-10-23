@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ClientOnly>
           <Navbar />
-          <Modal />
+          <Modal isOpen title="Title" />
         </ClientOnly>
         {children}
       </body>
